@@ -1,0 +1,81 @@
+#container {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 8vh;
+    height: 80vh;
+    width: 60%;
+    background-color: grey;
+}
+
+#A{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    background-color: rgb(240, 158, 158);
+}
+
+#B{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    width: 60%;
+}
+
+#B1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(173, 250, 173);
+}
+
+#C{
+    display: flex;
+    gap: 10px;
+    height: 50%;
+    width: 100%;
+}
+
+#C1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: rgb(236, 198, 248);
+}
+
+#D{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+#D1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 48%;
+    background-color: rgb(137, 187, 243);
+}
+
+#D2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 48%;
+    background-color: rgb(137, 187, 243);
+}
+
+.txt{
+    color: white;
+    font-family: fantasy;
+    font-size: 8vh;
+}
